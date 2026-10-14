@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "柯林斯查词",
+  "version": "0.1.0",
+  "description": "在工具栏弹窗中查询有道柯林斯释义、例句和发音。",
+  "action": {
+    "default_title": "柯林斯查词",
+    "default_popup": "popup.html"
+  },
+  "host_permissions": ["https://dict.youdao.com/*"],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'none'; connect-src https://dict.youdao.com; img-src 'self'; media-src https://dict.youdao.com"
+  }
+}
